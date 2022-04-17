@@ -35,7 +35,7 @@ public class Main {
             throw new Exception("Недопустимое число");
         }
         int answer = 0;
-        switch (sm[1]) {
+        switch (sm[1]) { // Основной подсчёт
             case "+":
                 answer = Integer.parseInt(sm[0]) + Integer.parseInt(sm[2]);
                 break;
